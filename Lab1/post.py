@@ -1,11 +1,11 @@
 #-*-coding:utf-8-*-
 import urllib, urllib2
-url = "http://www.love-sysu.com/cloud"
+url = "http://0.0.0.0:8080/"
 data = {
-    "name":"曾兆阳",
-    "id":"12353255",
-    "email":"664587718@qq.com",
-    "random_code":"31023104"
+    "name":"bobo",
+    "id":"123",
+    "email":"123@qq.com",
+    "random_code":"31415926"
 }
 para = urllib.urlencode(data)
 req = urllib2.Request(url, para)

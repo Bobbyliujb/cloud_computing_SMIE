@@ -1,9 +1,9 @@
 #-*-coding:utf-8-*-
 import urllib, urllib2
-url = "http://www.love-sysu.com/cloud"
+url = "http://0.0.0.0:8080/"
 data = {
-    "name":"曾兆阳",
-    "id":"12353255"
+    "name":"bobo",
+    "id":"123"
 }
 para = urllib.urlencode(data)
 res = urllib2.urlopen(url+'?'+para)
